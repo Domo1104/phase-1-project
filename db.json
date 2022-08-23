@@ -1,4 +1,5 @@
 {
+  "zodiacs":{
   "western_zodiac": [
     {
       "name": "Aries",
@@ -423,5 +424,6 @@
       "unicode_symbol": "亥"
     }
   ]
+}
 }
 
