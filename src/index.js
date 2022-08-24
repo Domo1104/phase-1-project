@@ -23,10 +23,7 @@ const westernZodiac = (zodiacs) => {
     longitudeStart.textContent = "Longitude start: " + zodiacs.longitude_start
 
     const longitudeEnd = document.querySelector("#longitude-end")
-    longitudeEnd.textContent = "longitude end: " + zodiacs.longitude_end
-
-    const zodiacSymbol = document.querySelector("#symbol")
-    zodiacSymbol.textContent = "Symbol: " + zodiacs.unicode_symbol
+    longitudeEnd.textContent = "Longitude end: " + zodiacs.longitude_end
 
     const zodiacGloss = document.querySelector("#zodiac-gloss")
     zodiacGloss.textContent = "Gloss: " + zodiacs.gloss
@@ -42,6 +39,12 @@ const westernZodiac = (zodiacs) => {
 
     const zodiacPersonality = document.querySelector("#zodiac-personality")
     zodiacPersonality.textContent = "Personality: " + zodiacs.keywords.join(', ')
+
+    const zodiacDate = document.querySelector('#zodiac-dates')
+    zodiacDate.textContent = "Date Range: " + zodiacs.dates
+
+    const zodiacSymbol = document.querySelector("#symbol")
+    zodiacSymbol.textContent = "Symbol: " + zodiacs.unicode_symbol
 }
 
 const easternZodiac = (zodiacs) => {
@@ -82,7 +85,7 @@ function renderZodiacsE(zodiacs) {
     zodiacYears.textContent = "Years: " + zodiacs.years.join(', ')
 
     const zodiacUnicode = document.querySelector("#east-symbol")
-    zodiacUnicode.textContent = "Unicode: " + zodiacs.unicode_symbol
+    zodiacUnicode.textContent = "Symbol: " + zodiacs.unicode_symbol
 }
 
 document.addEventListener('DOMContentLoaded', function() {

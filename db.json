@@ -5,145 +5,157 @@
       "name": "Aries",
       "longitude_start": "0",
       "longitude_end": "30",
-      "svg_symbol": "https://en.wikipedia.org/wiki/File:Aries.svg",
-      "unicode_symbol": "♈",
+      "svg_symbol": "zodiac image.jpg",
+      "unicode_symbol": "♈︎",
       "gloss": "The Ram",
       "element": "Fire",
       "ruling_body_classic": "Mars",
       "ruling_body_modern": "Mars",
-      "keywords": ["driven", "idealistic", "aggressive"]
+      "keywords": ["driven", "idealistic", "aggressive"],
+      "dates": "March 21 - April 19"
     },
     {
       "name": "Taurus",
       "longitude_start": "30",
       "longitude_end": "60",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Taurus.svg",
-      "unicode_symbol": "♉",
+      "unicode_symbol": "♉︎",
       "gloss": "The Bull",
       "element": "Earth",
       "ruling_body_classic": "Venus",
       "ruling_body_modern": "Earth",
-      "keywords": ["resolute", "sensual", "indulgent"]
+      "keywords": ["resolute", "sensual", "indulgent"],
+      "dates": "April 20 - May 20"
     },
     {
       "name": "Gemini",
       "longitude_start": "60",
       "longitude_end": "90",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Gemini.svg",
-      "unicode_symbol": "♊",
+      "unicode_symbol": "♊︎",
       "gloss": "The Twins",
       "element": "Air",
       "ruling_body_classic": "Mercury",
       "ruling_body_modern": "Mercury",
-      "keywords": ["playful", "curious", "two-faced"]
+      "keywords": ["playful", "curious", "two-faced"],
+      "dates": "May 21 - June 21"
     },
     {
       "name": "Cancer",
       "longitude_start": "90",
       "longitude_end": "120",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Cancer.svg",
-      "unicode_symbol": "♋",
+      "unicode_symbol": "♋︎",
       "gloss": "The Crab",
       "element": "Water",
       "ruling_body_classic": "Moon",
       "ruling_body_modern": "Moon",
-      "keywords": ["nurturing", "snobby", "petty"]
+      "keywords": ["nurturing", "snobby", "petty"],
+      "dates": "June 22 - July 22"
     },
     {
       "name": "Leo",
       "longitude_start": "120",
       "longitude_end": "150",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Leo.svg",
-      "unicode_symbol": "♌",
+      "unicode_symbol": "♌︎",
       "gloss": "The Lion",
       "element": "Fire",
       "ruling_body_classic": "Sun",
       "ruling_body_modern": "Sun",
-      "keywords": ["fierce", "opulent", "narcissistic"]
+      "keywords": ["fierce", "opulent", "narcissistic"],
+      "dates": "July 23 - August 22"
     },
     {
       "name": "Virgo",
       "longitude_start": "150",
       "longitude_end": "180",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Virgo.svg",
-      "unicode_symbol": "♍",
+      "unicode_symbol": "♍︎",
       "gloss": "The Maiden",
       "element": "Earth",
       "ruling_body_classic": "Mercury",
       "ruling_body_modern": "Ceres",
-      "keywords": ["meticulous", "helpful", "naive"]
+      "keywords": ["meticulous", "helpful", "naive"],
+      "dates": "August 23 - September 22"
     },
     {
       "name": "Libra",
       "longitude_start": "180",
       "longitude_end": "210",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Libra.svg",
-      "unicode_symbol": "♎",
+      "unicode_symbol": "♎︎",
       "gloss": "The Scales",
       "element": "Air",
       "ruling_body_classic": "Venus",
       "ruling_body_modern": "Venus",
-      "keywords": ["balanced", "chatty", "indecisive"]
+      "keywords": ["balanced", "chatty", "indecisive"],
+      "dates": "September 23 - October 22"
     },
     {
       "name": "Scorpio",
       "longitude_start": "210",
       "longitude_end": "240",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Scorpio.svg",
-      "unicode_symbol": "♏",
+      "unicode_symbol": "♏︎",
       "gloss": "The Scorpion",
       "element": "Water",
       "ruling_body_classic": "Mars",
       "ruling_body_modern": "Pluto",
-      "keywords": ["deep", "magnetic", "destructive"]
+      "keywords": ["deep", "magnetic", "destructive"],
+      "dates": "October 23 - November 22"
     },
     {
       "name": "Sagittarius",
       "longitude_start": "240",
       "longitude_end": "270",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Sagittarius.svg",
-      "unicode_symbol": "♐",
+      "unicode_symbol": "♐︎",
       "gloss": "The Archer",
       "element": "Fire",
       "ruling_body_classic": "Jupiter",
       "ruling_body_modern": "Jupiter",
-      "keywords": ["ambitious", "daring", "coarse"]
+      "keywords": ["ambitious", "daring", "coarse"],
+      "dates": "November 23 - December 21"
     },
     {
       "name": "Capricorn",
       "longitude_start": "270",
       "longitude_end": "300",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Capricorn.svg",
-      "unicode_symbol": "♑",
+      "unicode_symbol": "♑︎",
       "gloss": "The Mountain Sea-goat",
       "element": "Earth",
       "ruling_body_classic": "Saturn",
       "ruling_body_modern": "Saturn",
-      "keywords": ["responsible", "awkward", "rigid"]
+      "keywords": ["responsible", "awkward", "rigid"],
+      "dates": "December 22 - January 19"
     },
     {
       "name": "Aquarius",
       "longitude_start": "300",
       "longitude_end": "330",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Aquarius.svg",
-      "unicode_symbol": "♒",
+      "unicode_symbol": "♒︎",
       "gloss": "The Water-bearer",
       "element": "Air",
       "ruling_body_classic": "Saturn",
       "ruling_body_modern": "Uranus",
-      "keywords": ["inventive", "zany", "erratic"]
+      "keywords": ["inventive", "zany", "erratic"],
+      "dates": "January 20 - February 18"
     },
     {
       "name": "Pisces",
       "longitude_start": "330",
       "longitude_end": "360",
       "svg_symbol": "https://en.wikipedia.org/wiki/File:Pisces.svg",
-      "unicode_symbol": "♓",
+      "unicode_symbol": "♓︎",
       "gloss": "The Fish",
       "element": "Water",
       "ruling_body_classic": "Jupiter",
       "ruling_body_modern": "Neptune",
-      "keywords": ["artistic", "sentimental", "dependent"]
+      "keywords": ["artistic", "sentimental", "dependent"],
+      "dates": "February 19 - March 20"
     }
   ],
   "eastern_zodiac": [
