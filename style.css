@@ -2,52 +2,108 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: skyblue;
-
 }
 
 #east-west-button {
+  color: darkslategray;
   margin-top: 1vh;
-  width: 35vw;
+  width: 20vw;
   font-size: 1em;
   height: 5vh;
   border-radius: 3em;
+  background: rgb(185, 206, 215);
+  cursor: pointer;
+}
+
+#east-west-button:hover {
+  transform: skewX(-10deg);
+  transition: .3s;
+  color: white
 }
 
 #zodiac-bar {
   height: 15vh;
-  background: skyblue;
+  background: rgb(178, 178, 178);
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 #zodiac-bar span {
-  height: 80%;
+  color: darkslategray;
+  background: rgb(185, 206, 215);
+  height: 50%;
   width: 8vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2em;
-  border: 1px solid blue;
+  border-radius: 50%; 
+  border: 1px solid ;
+  box-shadow: 3px 5px 10px rgb(0, 0, 0, 10);
+  overflow: hidden;
+  /* text-shadow: 2px 2px 5px orange */
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#zodiac-bar span:hover {
+  cursor: pointer;
+  color: white;
+  animation: bounce 1s;
+  text-shadow: 2px 2px 5px white;
 }
 
 #zodiac-sign-container {
+  color: darkslategray;
+  height: 75vh;
+  /* text-align: left; */
+  margin-left: 2%;
+  text-align: center;
+  position: absolute;
+}
+
+#east-zodiac-container {
+  color: darkslategray;
   height: 75vh;
   text-align: center;
+  position: absolute;
+  right: 2%;
+  top: 20%;
 }
 
-#zodiac-info {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+#years {
+  width: 25vw;
+  /* margin: left; */
+  /* text-align: right; */
 }
 
-#zodiac-info img {
-  max-width: 75vw;
-  max-height: 25vw;
+#background-image {
+  position: fixed;
+  left: 25%;
+  bottom: 10%;
+  display: block;
+  margin: auto;
+  width: 50%;
+  ;
 }
 
 body {
   margin: 0;
+  background: rgb(178, 178, 178);
 }
+
